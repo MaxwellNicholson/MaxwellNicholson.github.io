@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+   <title>WIP</title>
+ <link rel="stylesheet" href="main.css">
+  <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="index.html">Shifting Subjects</a></div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+      </div>
+  </nav>
+
+  <div class="mainContent">
+    <div class="pageTitle">
+        <div class="pageTitleText">
+          <div class="pageTitleMainText">
+            Shifting Subjects: Foreign Figures in Japanese Art
+          </div>
+          <div class="pageTitleSubText">
+            An exploration of the western influence on ukiyo-e
+          </div>
+        </div>
+        <div class="titleImageWrapper">
+          <img src="fuji.png">
+        </div>
+    </div>
+    <div class="pageBody" style="padding-top: 1rem; background-color: #150656;">
+      <div class="pageBodyTitle">
+        Introduction
+      </div>
+      <div class="pageBodyText">
+        &emsp;&emsp;&emsp; Since the 1600s Japan was an almost completely isolated society and took a fierce stance against foreign influence, only conducting trade with the Dutch and Chinese in a few specific ports. This led Japan to be increasingly disconnected from the world in many aspects of culture and technology, including art. This changed however with Commodore Mathew Perry’s forceful introduction in 1853. Bringing with him several intimidating warships, Perry forced Japan to open to foreign trade and influence. This resulted in the Treaty of Peace and Amity, which forced Japan to open up the ports of Shimoda & Hakodate. This slight deviation from isolationism would have a profound impact on the future of Japan. Shortly after this treaty, Japan began a period known as the Meiji Restoration which saw major overhauls in Japan's government, military, and society to be more reminiscent of the current Western superpowers. This period of restoration also had a major, less direct effect on the culture and art present in Japan.
+      </div>
+      <div class="pageBodyImage" style="margin-left: 3.5rem;">
+        <img src="warship.png">
+        <div class="imageCaption">A dipiction of Commodore Perry’s warships - unknown</div>
+
+      </div>
+    </div>
+    <div class="pageBody" style="background-color: #0B032D;">
+      <div class="pageBodyImage" style="margin-right: 3.5rem;">
+        <img src="Ukiyo.jpg">
+        <div class="imageCaption">Male prostitutes & ladies in waiting in a Green house (brothel) - Utagawa Toyokuni I</div>
+      </div>
+      <div class="pageBodyText">
+        &emsp;&emsp;&emsp; One of the most prevalent forms of art in Japan during their isolationist period was woodblock prints known as ukiyo-e. Emerging in the early 1600s in modern-day Tokyo, ukiyo-e became a part of the growing lifestyle of ukiyo loosely translating to “floating/fleeting/transient world”. This word was used to describe the new raw pleasure-seeking lifestyle emerging in the urban centers of Japan. Ukiyo-e sought to capture this lifestyle in print, meaning that the subjects for these works were often prostitutes, geishas, and samurai. This style remained popular into the 18th century when Japan ended its isolation. Many ukiyo-e prints were shared around the world and became sources of inspiration for the growing impressionist movement in Europe. Western influences also impacted ukiyo-e, greatly increasing the variety of subjects in the medium.
+      </div>
+    </div>
+    <div class="pageBody" style="background-color: #150656;">
+      <div class="pageBodyText">
+        &emsp;&emsp;&emsp; One of the schools that saw the biggest influence from the new Western ideologies was the Utagawa school. This school was one of the biggest and most influential schools in the ukiyo-e movement, producing around half of the known ukiyo-e prints. All of the prints in this gallery were made by students from this school, which can be seen by the fact that all the artists share the same last name Utagawa. During this period in Japan, it was customary for artists to take on the last names of their masters, with the following numbers outlying their hierarchy in the school. The Utugawa school was the first school to popularize the Yokohama-e style of woodblock prints which depicted foreigners as the subject, named after a popular port city that foreigners would frequent. Each of the pieces in this gallery portrays different aspects of the Yaokohama-e style. This includes views into foreign cities in America, a juxtaposition of several cultures with An American, A French Woman, and A Chinese Servant, and views into new Western technology with An Interior of an American Steamship.
+      </div>
+      <div class="pageBodyImage" style="margin-left: 3.5rem;">
+        <img src="fireworks.jpg">
+        <div class="imageCaption">Fireworks at Ryōgoku Bridge - Utagawa Toyoharu (Founder of the Utagawa School)</div>
+      </div>
+      <a href="gallery.html" style="display: flex; justify-content: center; text-decoration: none;">
+        <div class="galleryButton">
+          See Gallery
+        </div>
+      </a>
+      </div>
+    </div>
+    
+  </div>
+
+<style>
+  .imageCaption {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .galleryButton {
+    background-color: #335c67;
+    color: white;
+    border-radius: 7px;
+    font-size: 1.1875rem;
+    line-height: 1.25rem;
+    padding: 1rem 2.375rem;
+    margin-bottom: 0;
+    width: 14.375rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .pageBodyText {
+    color: white;
+    font-size: 0.9rem;
+    width: 60%;
+    display: inline-block;
+  }
+  .pageBodyImage {
+    width: 30%;
+    display: inline-block;
+    z-index: 4;
+  }
+  .pageBodyImage img {
+    max-width: 100%;
+  }
+  .pageBodyTitle {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .pageBody {
+    padding: 3rem;
+  }
+
+  .pageTitle {
+    text-align: center;
+    font-weight: bold;
+    background-color: #335c67;
+    height: 200px;
+    position: relative;
+    z-index: 0;
+  }
+
+  .titleImageWrapper {
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+    width: 475px;
+  }
+  .titleImageWrapper img {
+    max-width: 100%;
+  }
+  .pageTitleMainText{
+    font-size: 2rem;
+  }
+  .pageTitleSubText {
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-top: 1rem;
+  }
+  .pageTitleText {
+    float: left;
+    width: 70%;
+    position: absolute;
+    top: 30%;
+  }
+</style>
+
+
+

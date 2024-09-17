@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+   <title>WIP</title>
+   <link rel="stylesheet" href="main.css">
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="index.html">Shifting Subjects</a></div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+      </div>
+  </nav>
+<!-- Flickity HTML init -->
+<div class="gallery js-flickity"
+  data-flickity-options='{ "wrapAround": true }'>
+  <div class="galleryWrapper" style="background-color: #150656;">
+    <div class="galleryImageWrapper">
+        <div class="galleryImage">
+            <img src="America.png">
+        </div>
+        <div class="gallerySubtitle">
+            Yoshitora Utagawa, <i>America</i>, color woodblock print on paper, 1867
+        </div>
+        <div class="galleryText" style="margin-top: 2rem;">
+            Utagawa Yoshitora was an 1850s Japanese artist, who focused on woodblock prints. He was a pupil of Utagawa Kuniyoshi who was revered for his style of prints called Yokohama-e, which saw foreigners as the art's subject. This style of woodblocks gained prominence after Japan's forceful opening in 1860. Yoshitora often tried to replicate scenes from foreign countries, with America as an example.
+        </div>
+    </div>
+  </div>
+  <div class="galleryWrapper">
+    <div class="galleryText galleryTextInline">
+        Utagawa Yoshitora was an 1850s Japanese artist, who focused on woodblock prints. He was a pupil of Utagawa Kuniyoshi who was revered for his style of prints called Yokohama-e, which saw foreigners as the art's subject. This style of woodblocks gained prominence after Japan's forceful opening in 1860. Yoshitora often tried to replicate scenes from foreign countries, with America as an example.
+    </div>
+    <div class="galleryImageWrapper" style="width: 80%;">
+        <div class="galleryImage">
+            <img src="france.png">
+        </div>
+        <div class="gallerySubtitle">
+            Utagawa Hiroshige II, <i>An American, A French Woman and A Chinese Servant</i>, color woodblock print on paper, 1860
+        </div>
+        
+    </div>
+  </div>
+  <div class="galleryWrapper">
+    <div class="galleryImageWrapper">
+        <div class="galleryImage">
+            <img src="steamship.png">
+        </div>
+        <div class="gallerySubtitle">
+            Utagawa Yoshikazu, <i>An Interior of an American Steamship</i>, color woodblock print on paper, 1861
+        </div>
+        <div class="galleryText" style="margin-top: 2rem;">
+            Utagawa Yoshitora was an 1850s Japanese artist, who focused on woodblock prints. He was a pupil of Utagawa Kuniyoshi who was revered for his style of prints called Yokohama-e, which saw foreigners as the art's subject. This style of woodblocks gained prominence after Japan's forceful opening in 1860. Yoshitora often tried to replicate scenes from foreign countries, with America as an example.
+        </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+    .galleryTextInline{
+        width: 100%;
+        float: left;
+        margin: auto;
+    }
+
+    .previous{
+        margin-left: 3rem !important;
+    }
+    .next{
+        margin-right: 3rem !important;
+    }
+    .galleryText {
+        color: white;
+    }
+    .galleryImageWrapper {
+        text-align: center;
+    }
+    .galleryImage {
+        width: 60%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .gallerySubtitle {
+        font-weight: bold;
+        color: white;
+        width: 60%;
+        display: inline-block;
+    }
+
+    .galleryImage img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .gallery {
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+    .galleryWrapper {
+        width: 75%;
+        height: 525px;
+        padding: 1.5rem;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: #150656;
+    }
+</style>
+
+</body>
