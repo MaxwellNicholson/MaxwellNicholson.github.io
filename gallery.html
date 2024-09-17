@@ -22,6 +22,15 @@
       </div>
   </nav>
 <!-- Flickity HTML init -->
+<div class="galleryPageTitle">
+    <div class="galleryPageTitleText">
+        The Gallery
+    </div>
+    <div class="galleryPageTitleSubtitle">
+        Navigate the exhibit with the arrows on the left and right
+    </div>
+</div>
+
 <div class="gallery js-flickity"
   data-flickity-options='{ "wrapAround": true }'>
   <div class="galleryWrapper" style="background-color: #150656;">
@@ -68,6 +77,22 @@
 </div>
 
 <style>
+    .galleryPageTitle {
+        margin-top: 5.5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .galleryPageTitleText {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .galleryPageTitleSubtitle {
+        font-weight: normal;
+        font-size: 1rem;
+    }
+
     .galleryTextInline{
         width: 100%;
         float: left;
@@ -106,7 +131,7 @@
     }
 
     .gallery {
-        margin-top: 8rem;
+        margin-top: 1rem;
         margin-bottom: 3rem;
     }
     .galleryWrapper {
