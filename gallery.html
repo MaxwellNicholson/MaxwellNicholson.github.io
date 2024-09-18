@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
    <meta charset="UTF-8">
-   <title>WIP</title>
+   <title>Shifting Subjects</title>
    <link rel="stylesheet" href="main.css">
    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-
+   <link rel="icon" src="fuji.ico" ype="image/x-icon" />
   <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +36,9 @@
   <div class="galleryWrapper" style="background-color: #150656;">
     <div class="galleryImageWrapper">
         <div class="galleryImage">
-            <img src="America.png">
+            <a href="America.png" target="_blank">
+                <img src="America.png">
+            </a>
         </div>
         <div class="gallerySubtitle">
             Yoshitora Utagawa, <i>America</i>, color woodblock print on paper, 1867
@@ -63,7 +65,9 @@
   <div class="galleryWrapper">
     <div class="galleryImageWrapper">
         <div class="galleryImage">
-            <img src="steamship.png">
+            <a href="steamship.png" target="_blank">
+                <img src="steamship.png">
+            </a>
         </div>
         <div class="gallerySubtitle">
             Utagawa Yoshikazu, <i>An Interior of an American Steamship</i>, color woodblock print on paper, 1861
@@ -77,6 +81,10 @@
 </div>
 
 <style>
+    .flickity-page-dots .dot {
+        background-color: white !important;
+    }
+
     .galleryPageTitle {
         margin-top: 5.5rem;
         color: white;
