@@ -33,7 +33,7 @@
 
 <div class="gallery js-flickity"
   data-flickity-options='{ "wrapAround": true }'>
-  <div class="galleryWrapper" style="background-color: #150656;">
+  <div class="galleryWrapper">
     <div class="galleryImageWrapper">
         <div class="galleryImage">
             <a href="America.png" target="_blank">
@@ -44,36 +44,37 @@
             Yoshitora Utagawa, <i>America</i>, color woodblock print on paper, 1867
         </div>
         <div class="galleryText" style="margin-top: 2rem;">
-            Utagawa Yoshitora was an 1850s Japanese artist, who focused on woodblock prints. He was a pupil of Utagawa Kuniyoshi who was revered for his style of prints called Yokohama-e, which saw foreigners as the art's subject. This style of woodblocks gained prominence after Japan's forceful opening in 1860. Yoshitora often tried to replicate scenes from foreign countries, with America as an example.
+            Yoshitora Utagawa’s <i>America</i> sees his depiction of a generic city in the US. Being the eldest student of the famous Utagawa Kuniyoshi, Yoshitora quickly became an esteemed ukiyo-e artist. Yoshitora was renowned for his depictions of Western countries such as France and London, with <i>America</i> being the last print he did in this style. It’s unlikely Yoshitora visited any of the countries he depicted. Yoshitora captures a vivid scene of flying air balloons, people dressed in Victorian-era clothing, and Western-style architecture, reflecting the transformative period in Japan's history. His artwork showcases the influx of new technologies and Western influences that entered Japan following the long period of its isolationist policy.
         </div>
-    </div>
-  </div>
-  <div class="galleryWrapper">
-    <div class="galleryText galleryTextInline">
-        Utagawa Yoshitora was an 1850s Japanese artist, who focused on woodblock prints. He was a pupil of Utagawa Kuniyoshi who was revered for his style of prints called Yokohama-e, which saw foreigners as the art's subject. This style of woodblocks gained prominence after Japan's forceful opening in 1860. Yoshitora often tried to replicate scenes from foreign countries, with America as an example.
-    </div>
-    <div class="galleryImageWrapper" style="width: 80%;">
-        <div class="galleryImage">
-            <img src="france.png">
-        </div>
-        <div class="gallerySubtitle">
-            Utagawa Hiroshige II, <i>An American, A French Woman and A Chinese Servant</i>, color woodblock print on paper, 1860
-        </div>
-        
     </div>
   </div>
   <div class="galleryWrapper">
     <div class="galleryImageWrapper">
         <div class="galleryImage">
-            <a href="steamship.png" target="_blank">
-                <img src="steamship.png">
+            <a href="tea.png" target="_blank">
+                <img src="tea.png">
             </a>
         </div>
         <div class="gallerySubtitle">
-            Utagawa Yoshikazu, <i>An Interior of an American Steamship</i>, color woodblock print on paper, 1861
+            Yoshikazu Utagawa, <i>Foreigners Having a Party at the Gankirō Tea House in Miyozki, Yokohama</i>, color woodblock print on paper, 1861
         </div>
         <div class="galleryText" style="margin-top: 2rem;">
-            Utagawa Yoshitora was an 1850s Japanese artist, who focused on woodblock prints. He was a pupil of Utagawa Kuniyoshi who was revered for his style of prints called Yokohama-e, which saw foreigners as the art's subject. This style of woodblocks gained prominence after Japan's forceful opening in 1860. Yoshitora often tried to replicate scenes from foreign countries, with America as an example.
+            The end of Japan’s isolationist period brought cultures into contact that had never interacted before, often resulting in clashes. Yoshikazu's <i>Foreigners Having a Party at the Gankirō Tea House in Miyozki, Yokohama</i> vividly captures the tensions that arose from these cultural differences. The artwork portrays a group of foreigners hosting a lively party at a tea house, juxtaposed with the varied reactions of the Japanese locals. At the time Japanese opinions on foreign people were varied, with some being more accepting than others. This dynamic is illustrated through contrasting scenes in the piece with depictions of musicians glaring at the foreigners as well as a Japanese women embracing a foreigner.
+        </div>
+    </div>
+  </div>
+  <div class="galleryWrapper">
+    <div class="galleryImageWrapper">
+        <div class="galleryImage">
+            <a href="buisness.png" target="_blank">
+                <img src="buisness.png">
+            </a>
+        </div>
+        <div class="gallerySubtitle">
+            Sadahide Utagawa , <i>Sales Room at a Foreign Trading House in Yokohama</i>, color woodblock print on paper, 1861
+        </div>
+        <div class="galleryText" style="margin-top: 2rem;">
+            Yokohama was one of the biggest cultural centers in Japan, and quickly became a hub of trade and business following the opening of Japan. Many Japanese woodblock artists would find inspiration in the lovely, foreign full city of Yokohama, birthing the Yokohame-e woodblock style. Sadahide was one of the most popular Yokohame-e artists, partly due to his tendency to portray foreigners in a positive light. This led to his art becoming heavily desired by foreign merchants, skyrocketing his popularity outside of Japan. <i>Sales Room at a Foreign Trading House in Yokohama</i> portrays a bustling business center filled with Japanese and foreigners alike. Sadahide's piece highlights industries central to Japan's foreign trade, such as textiles and textbooks. His portrayal emphasizes a sense of unity between the Japanese and foreigners, a signature element of his distinctive style of Yokohame-e.
         </div>
     </div>
   </div>
@@ -101,12 +102,6 @@
         font-size: 1rem;
     }
 
-    .galleryTextInline{
-        width: 100%;
-        float: left;
-        margin: auto;
-    }
-
     .previous{
         margin-left: 3rem !important;
     }
@@ -115,9 +110,13 @@
     }
     .galleryText {
         color: white;
+        font-size: 0.9rem;
+        position: absolute;
+        top: 57%;
     }
     .galleryImageWrapper {
         text-align: center;
+        position: relative;
     }
     .galleryImage {
         width: 60%;
@@ -144,7 +143,7 @@
     }
     .galleryWrapper {
         width: 75%;
-        height: 525px;
+        height: 600px;
         padding: 1.5rem;
         margin-right: 10px;
         display: flex;
